@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="230" pageHeight="500" columnWidth="203" leftMargin="7" rightMargin="20" topMargin="1" bottomMargin="1" uuid="ac13d3ed-64a3-42a5-b157-065af0453925">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="100" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="203" height="20" uuid="d3b6c42c-03b2-474e-8bc6-4e0eec5685d7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SSD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="20" width="202" height="20" uuid="948b83d3-bafb-427c-83b3-3e3fb0dabdfc"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Software Developament Soluction]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="48" y="40" width="122" height="20" uuid="9fe6b232-800d-4280-bb89-4012819fe1d3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Rua Sacadura Cabral ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="49" y="60" width="103" height="20" uuid="af9f185b-0df6-40a7-9418-7c8eaf1a1193"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Benguela-Angola]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="80" width="103" height="20" uuid="09cfe5e5-1285-48c4-9462-b3376fbdcef4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nif: 0057334820]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="12" splitType="Stretch">
+			<textField pattern="EEE, d MMM yyyy HH:mm:ss Z">
+				<reportElement x="1" y="0" width="90" height="10" uuid="4719636e-17e0-4958-b1ae-edb9ff6e8ff7"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="0" width="80" height="12" uuid="26a4d3ae-67c3-4fcc-9c5f-ba1aa0055b70"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Factura de Pagamento]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="12" splitType="Stretch">
+			<staticText>
+				<reportElement x="4" y="2" width="99" height="10" uuid="c5091cb3-8285-4625-896a-6876ce6c4774"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cliente : Farmacia Amajac]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="91" splitType="Stretch">
+			<staticText>
+				<reportElement x="7" y="46" width="182" height="20" uuid="cab2a79d-d844-4fba-a0cd-85eb2781160a"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<text><![CDATA[Manutenção completa do hardware .]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="66" width="176" height="20" uuid="05196b93-b4b1-425d-9e07-9ec703d031e5"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<text><![CDATA[Aplicação de pasta termica ao  processador]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="41" width="189" height="1" uuid="8f660e61-824b-4a5b-90f7-1a1abb4e3fd9"/>
+			</line>
+			<line>
+				<reportElement x="0" y="90" width="183" height="1" uuid="1871cac3-f556-4cf6-b586-19390c75eb0e"/>
+			</line>
+			<staticText>
+				<reportElement x="39" y="1" width="118" height="20" uuid="81b82671-3507-49c8-b93d-4c5f6d85ebe4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Serviços prestados]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="21" width="182" height="20" uuid="243b3e28-2faa-4133-9d12-6f8b9f6bbfc2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Marca do Computador : HP de Mesa]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement x="103" y="0" width="86" height="20" uuid="e8f9a1c6-e3df-432d-8de6-d383de79ebcd"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Valor pago: 12.000kz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="71" y="20" width="81" height="20" uuid="cdae4f9f-7807-46a7-9a19-40dc54839557"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[Funcionario: Alfredo]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="94" y="0" width="9" height="20" uuid="94f09c9b-baf1-4eac-bec5-a10ba464af4a"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="18" splitType="Stretch"/>
+	</summary>
+</jasperReport>
